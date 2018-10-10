@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".generalResults"
+    tools:showIn="@layout/activity_general_results">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/health" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:text="General Assessment Results"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:stretchColumns="0"
+                >
+
+                <View
+                    style="@style/dividerHorizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="5dip"
+                    android:background="#2F4F4F"/>
+
+                <TableRow
+                    android:background="#0088cc"   >
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="246dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:text=" Assessment Type"
+                        android:textColor="@color/background2"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:textColor="@color/background2"
+                        android:textStyle="bold"
+                        android:layout_width="173dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Result"
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:textColor="@color/background2"
+                        android:textStyle="bold"
+                        android:layout_width="237dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Advice"
+                        android:textSize="25dp" />
+
+
+                </TableRow>
+                <View
+                    style="@style/dividerHorizontal"
+                    android:layout_height="5dip"
+                    android:background="#2F4F4F"/>
+                <TableRow
+                    android:background="#9F9F9F9F">
+
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Oedema"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp" />
+
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Underweight"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textSize="20dp" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:id="@+id/weightAdvice"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="1dp"
+                        android:textAllCaps="false"
+                        android:text="Go to advice"
+                        android:textSize="20dp"
+                        android:onClick="weightAdviceOnClick"
+                        />
+                </TableRow>
+                <TableRow
+                    android:background="#9F9F9F9F">
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Stunting"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textSize="20dp" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="1dp"
+                        android:textAllCaps="false"
+                        android:text="Go to advice"
+                        android:textSize="20dp"
+                        android:onClick="heightAdviceOnClick"/>
+                </TableRow>
+                <TableRow>
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Wasting "
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textSize="20dp" />
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="1dp"
+                        android:textAllCaps="false"
+                        android:text="Go to advice"
+                        android:textSize="20dp"
+                        android:onClick="wastingAdviceOnClick"/>
+                </TableRow>
+                <TableRow
+                    android:background="#9F9F9F9F">>
+                    <TextView
+                        android:layout_width="230dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="20dp"
+                        android:text="MUAC"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="20dp" />
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textSize="20dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:layout_width="253dp"
+                    android:layout_height="match_parent"
+                    android:text="Birth Certificate Number :"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/bcn"
+                    android:layout_width="176dp"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapCharacters"
+                    android:hint=" Enter child BCN " />
+                <Button
+                    android:id="@+id/savedata"
+                    android:layout_width="131dp"
+                    android:layout_height="wrap_content"
+                    android:text="Save Data"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold"
+                    />
+
+            </TableRow>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

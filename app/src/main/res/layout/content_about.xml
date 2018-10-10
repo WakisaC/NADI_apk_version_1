@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".About"
+    tools:showIn="@layout/activity_about">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="49dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/j"
+                android:scaleType="fitCenter"
+                android:visibility="visible"
+                android:adjustViewBounds="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Nutrition Assessment and Data Intepreter is a Health mobile application which assesses Underfive Children's Nutrition status and provides immediate feedback according to the results of assessment."
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="25dp"
+                android:background="@color/colorPrimary"
+                android:padding="2dp"
+                android:text="Underweight Assessment"
+                android:textAlignment="center"
+                android:textColor="@color/background2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text=" This is the anthropometric index which assesses immediate undernourishment occurence depending on  weight and the age of the child"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="2dp"
+                android:textSize="25dp"
+                android:text=" Stunting Assessment"
+                android:textAlignment="center"
+                android:textColor="@color/background2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text=" This is the anthropometric index which assesses long term undernourishment occurence depending on  height and the age of the child"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="2dp"
+                android:textSize="25dp"
+                android:text=" Wasting Assessment"
+                android:textAlignment="center"
+                android:textColor="@color/background2"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text=" This is the anthropometric index which assesses occurence of moderate undernourishment depending on weight and height of the child"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="2dp"
+                android:textSize="25dp"
+                android:text=" Mid Upper Arm (MUAC)Assessment"
+                android:textAlignment="center"
+                android:textColor="@color/background2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text=" This is the anthropometric Assessment which is done in  children from 6 to 60 months to reflect their dietary intake and nourishment"
+                android:textColor="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:padding="2dp"
+                android:textSize="25dp"
+                android:text=" Oedema Assessment"
+                android:textAlignment="center"
+                android:textColor="@color/background2"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:text=" This is a clinical assessment which is done in  children from 6 to 60 months by pressing thumbs on the feet for 3 seconds and observe the outcome either pit formed or not formed. If pit formed,then the child has Oedema otherwise no Oedema. Oedema presence denotes protein deficiency (Kwashiorkor)."
+                android:textColor="@color/colorPrimary" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

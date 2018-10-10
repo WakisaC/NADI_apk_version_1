@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".wastingAdvice"
+    tools:showIn="@layout/activity_wasting_advice">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/wasted" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="2dp"
+                android:text="WASTED CHILD ADVICE"
+                android:textColor="@color/colorPrimary"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:text="A balanced diet including a wide range of healthy foods will help your child gain weight. Wasting advice is mainly based on the acronym FADDUAH"
+
+                />
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/frequency"
+                android:padding="20dp"
+                android:background="@color/background"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="2dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/adequency"
+                android:padding="20dp"
+                android:background="@color/background"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="2dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/density"
+                android:padding="20dp"
+                android:background="@color/background"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="2dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/diversification"
+                android:padding="20dp"
+                android:background="@color/background"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="2dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/hygen"
+                android:padding="20dp"
+                android:background="@color/background"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="2dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/utilization"
+                android:padding="20dp"
+                android:background="@color/background"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="2dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/active"
+                android:padding="20dp"
+                android:background="@color/background"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="2dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:text="@string/consult"
+                android:padding="20dp"
+                android:background="@color/background"/>
+
+
+            <View
+                style="@style/dividerHorizontal"
+                android:layout_marginTop="2dp"
+                android:layout_height="3dip"
+                android:background="#2F4F4F"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

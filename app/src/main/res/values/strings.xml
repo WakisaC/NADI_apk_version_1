@@ -1,0 +1,139 @@
+<resources>
+    <string name="app_name">Nutrition Assessment Data Interpreter (NADI)</string>
+    <string name="progress">Uploading Data...</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Underfive Nutrition Assessment</string>
+    <string name="nav_header_subtitle">Underfive Nutrition Assessment</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="n_a_d_i">N A D I</string>
+    <string name="title_activity_general__assess">Nutrition Assessment Data Interpreter (NADI)</string>
+    <string name="title_activity_gen__assess">Gen_Assess</string>
+    <string name="title_activity_choose__assess">Nutrition Assessment Data Interpreter (NADI)</string>
+    <string name="title_activity_under_weight">Under_weight</string>
+    <string name="title_activity_choose">Nutrition Assessment Data Interpreter (NADI)</string>
+    <string name="title_activity_general">Nutrition Assessment Data Interpreter (NADI)</string>
+    <string name="title_activity_underweight">Nutrition Assessment Data Interpreter (NADI)</string>
+    <string name="title_activity_height">Nutrition Assessment Data Interpreter (NADI)</string>
+    <string name="title_activity_wasting">Nutrition Assessment Data Interpreter (NADI)</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_about">About NADI</string>
+    <string name="title_activity_general_results">General Assessent Results</string>
+    <string name="title_activity_wasting_advice">Wasted Child Advice</string>
+    <string name="title_activity_overnourished_advice">Overnourished Child Advice</string>
+    <string name="title_activity_stunting_advice">Stunting Child Advice</string>
+    <string name="title_activity_overweight_advice">Overweight Child Advice</string>
+    <string name="title_activity_underweight_advice">Underweight Child Advice</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_save">save data</string>
+    <string name="title_activity_database">Child Follow Up</string>
+    <string name="title_activity_graph">graph</string>
+    <string name="facebook"><a href="https://www.facebook.com/nadiandroidaaplication/?ref=br_rs">Facebook</a></string>
+    <string name="LinkedIn"><a href="https://www.linkedin.com/in/nadi-android-application-a76575168/">Linked In</a></string>
+    <string name="google_plus"><a href="https://plus.google.com/106429778401560280522">Google +</a></string>
+    <string name="Email"><a href="https://mail.google.com/mail/u/0/#search/nadifeedback%40gmail.com">Email</a></string>
+    <string name="Youtube"><a href="http://youtube.com">Youtube</a></string>
+    <string name="Twitter"><a href="https://twitter.com/FeedbackNadi?lang=en">Twitter</a></string>
+    <string name="Instagram"><a href="http://instagram.com">Instagram</a></string>
+
+    <!-- stunting advice strings  -->
+    <string name="frequency">
+        <Strong>Frequency</Strong>
+
+\n\nF = The letter F means Frequency of feeding the child. The child should be fed 5 times in 12 hours day time which represents 3 hours feeding interval. For example 6am-9am-12pm-3pm-6pm.
+</string>
+    <string name="adequency">
+        <Strong>  Adequancy</Strong>
+
+\n\nA = The letter A means Adequacy of the food given to the child. Adequacy means the child should be fed enough quantity of food to meet the needs satisfactory.
+
+    </string>
+    <string name="density">
+        <Strong> Density</Strong>
+
+\n\nD = The letter D means Density of the food given to the child. Density means the amount of nutrients and energy per unit size of food and the child should be given correct amounts of nutrients and energy to meet the needs satisfactory.
+
+    </string>
+
+    <string name="diversification">
+        <Strong>Diversification</Strong>
+
+\n\nD = The letter D means Diversification of the foods given to the child. Diversification means number of the food groups available per meal given to the child, the child should be given at least 4 food groups per day.
+
+      \n\n1. Staple food for example ( maize and rice)
+		\n2. Food from animals for example (meat and eggs)
+		\n3. Legumes for example (beans and cow peas)
+		\n4. Fruits for example (mangoes and banana)
+		\n5. Vegetables for example (Chinese and lettuce)
+		\n6. Fats for example ( oil and groundnuts)
+    </string>
+
+    <string name="hygen">
+        <Strong>Hygiene</Strong>
+
+\n\nH = The letter H means Hygiene practices and good sanitation infrastructures availability at household.
+
+        \n\n<Strong>Hygiene tips</Strong>/
+
+	\n\nWash hands with disinfectant soap
+
+	\n1. After visiting the toilet
+
+	\n2. Before and after eating or feeding a baby
+
+	\n3. After changing baby nappies
+
+	\n4. Whenever the hands are dirty
+
+
+        \n\n<Strong>Sanitation tips</Strong>
+	\n\nThe household where the undernourished child is coming from should have good sanitation infrastructures.
+
+	\n1. Toilet
+
+	\n2. Bathroom
+
+	\n3. Kitchen
+
+	\n4. Drying rack
+
+	\n5. Rubbish pit
+
+    </string>
+    <string name="utilization">
+
+        <Strong>Utilization</Strong>
+
+\n\nU = The letter U means Utilization of the food given to the child. The parent/guardian should make sure the child is eating the food given in adequate quantity.
+
+    </string>
+    <string name="active">
+        <Strong>Active Participation</Strong>
+
+\n\nA = The letter A means Active Participation of all family members in the child caring.
+    </string>
+    <string name="consult">
+        <Strong> Consult Nutritionist</Strong>
+
+\n\nC = The letter C means Consulting nutritionist at the nearest Health Center or Hospital if there is no improvement after following these advices for period of time.
+
+    </string>
+    <string name="title_activity_mpa_graph">Mpa_graph</string>
+    <string name="title_activity_spline_chart">splineChart</string>
+    <string name="title_activity_note_main">Notes</string>
+    <string name="title_activity_note">Add note</string>
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".overnourishedAdvice"
+    tools:showIn="@layout/activity_overnourished_advice">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:adjustViewBounds="true"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/ime" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorPrimary"
+                android:fontFamily="serif"
+                android:textSize="30dp"
+                android:text="OVERNOURISHED ADVICE"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <View
+                    style="@style/dividerHorizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="3dip"
+                    android:background="#2F4F4F"/>
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#9F9F9F9F">>
+
+                    <TextView
+                        android:layout_width="84dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:text="1."
+                        android:textSize="25dp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="25dp"
+                        android:text="Feed the child With Low Fat Content Food"/>
+                </TableRow>
+                <View
+                    style="@style/dividerHorizontal"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="3dip"
+                    android:background="#2F4F4F"/>
+                <TableRow
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="25dp"
+                        android:text="2."/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="25dp"
+                        android:text="Feed the child With Low Sugar Content Food"/>
+
+                </TableRow>
+                <View
+                    style="@style/dividerHorizontal"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="3dip"
+                    android:background="#2F4F4F"/>
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#9F9F9F9F">>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="3"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="25dp"
+                        android:text="The child should play physically for atleast about 30 minutes a day."/>
+
+                </TableRow>
+                <View
+                    style="@style/dividerHorizontal"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="3dip"
+                    android:background="#2F4F4F"/>
+                <TableRow
+                    android:layout_marginTop="10dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="25dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="4"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="25dp"
+                        android:text="Feed the child With Negative Energy Foods"/>
+
+                </TableRow>
+                <View
+                    style="@style/dividerHorizontal"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="3dip"
+                    android:background="#2F4F4F"/>
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:background="#9F9F9F9F">>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="25dp"
+                        android:text="5"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="25dp"
+                        android:text="Consult Health Centre if no change while following advice for a period of time"/>
+
+                </TableRow>
+                <View
+                    style="@style/dividerHorizontal"
+                    android:layout_marginTop="2dp"
+                    android:layout_height="3dip"
+                    android:background="#2F4F4F"/>
+            </TableLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
